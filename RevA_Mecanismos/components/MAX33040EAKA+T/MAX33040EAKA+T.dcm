@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX33040EAKA+T
+D +3.3V, 5Mbps CAN Transceiver with ?40V Fault Protection
+K
+F https://datasheets.maximintegrated.com/en/ds/MAX33040E-MAX33041E.pdf
+$ENDCMP
+#
+#End Doc Library
