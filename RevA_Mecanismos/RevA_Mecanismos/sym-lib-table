@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "STM32L4-VANTTEC")(type "KiCad")(uri "${KIPRJMOD}/../components/STM32L4/MCU_ST_STM32L4.kicad_sym")(options "")(descr ""))
+  (lib (name "MAX33040EAKA+T")(type "Legacy")(uri "${KIPRJMOD}/../components/MAX33040EAKA+T/MAX33040EAKA+T.lib")(options "")(descr ""))
+  (lib (name "MolexConnectors")(type "KiCad")(uri "${KIPRJMOD}/../components/MolexConnectors/MolexConnectors.kicad_sym")(options "")(descr ""))
+)

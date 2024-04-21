@@ -1,0 +1,15 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 8af3d8a4-9eea-4cb7-acb9-15e42b60de6c)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text "TODO:\n*H-BRIDGE\n*STEPPER DRIVERS" (at 25.4 33.02 0)
+    (effects (font (size 1.27 1.27) (color 255 2 2 1)) (justify left bottom))
+    (uuid 37708a8a-f855-4b87-96b9-75c4de638e57)
+  )
+)
