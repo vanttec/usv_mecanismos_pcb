@@ -46,11 +46,11 @@
         )
       )
     )
-    (symbol "power:+12V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
+    (symbol "CustomUtilities:+VBATT" (power) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Value" "+12V" (at 0 3.556 0)
+      (property "Value" "+VBATT" (at 0 3.937 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -59,29 +59,7 @@
       (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"+12V\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+12V_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
+      (symbol "+VBATT_0_1"
         (polyline
           (pts
             (xy 0 2.54)
@@ -90,10 +68,19 @@
           (stroke (width 0) (type default))
           (fill (type none))
         )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+            (xy -0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
       )
-      (symbol "+12V_1_1"
+      (symbol "+VBATT_1_1"
         (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+12V" (effects (font (size 1.27 1.27))))
+          (name "+VMOT" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -150,6 +137,58 @@
         )
       )
     )
+    (symbol "power:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+5V" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"+5V\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+5V_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "+5V_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+5V" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -193,6 +232,10 @@
   )
 
 
+  (wire (pts (xy 218.44 134.62) (xy 218.44 132.08))
+    (stroke (width 0) (type solid))
+    (uuid 1736cb78-5505-4103-9bad-c7b86ed99368)
+  )
   (wire (pts (xy 236.22 134.62) (xy 236.22 132.08))
     (stroke (width 0) (type default))
     (uuid 5e31806b-3db0-423c-ad02-81feee3e7c8e)
@@ -200,6 +243,10 @@
   (wire (pts (xy 227.33 134.62) (xy 227.33 132.08))
     (stroke (width 0) (type solid))
     (uuid 6fad3da2-5fbf-4efc-a5b6-b7bc66abd280)
+  )
+  (wire (pts (xy 218.44 147.32) (xy 218.44 144.78))
+    (stroke (width 0) (type solid))
+    (uuid 8d912b48-627c-401e-af00-1de80d548684)
   )
   (wire (pts (xy 236.22 147.32) (xy 236.22 144.78))
     (stroke (width 0) (type solid))
@@ -213,6 +260,34 @@
   (text "POWER SUPPLY TESTPOINTS" (at 219.71 121.92 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 41e27060-8cd2-457d-a557-57cf369695e7)
+  )
+
+  (symbol (lib_id "CustomUtilities:+VBATT") (at 236.22 132.08 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 0789fd33-9153-4c04-a98a-77cb30ae63c5)
+    (property "Reference" "#PWR054" (at 236.22 132.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+VBATT" (at 236.22 127 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 236.22 132.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 236.22 132.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e2d46080-812c-4bf6-8d4f-37ba887c5ddf))
+    (instances
+      (project "RevA_Mecanismos"
+        (path "/3a16a434-10b7-49a8-988b-273362cb395e/9466c5e7-8595-42d4-852d-e47b24624149"
+          (reference "#PWR054") (unit 1)
+        )
+        (path "/3a16a434-10b7-49a8-988b-273362cb395e/a0534dee-4bf0-4ee7-89a4-28a5c95a5477"
+          (reference "#PWR030") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:GND") (at 227.33 147.32 0) (unit 1)
@@ -245,6 +320,37 @@
     )
   )
 
+  (symbol (lib_id "Connector:TestPoint_2Pole") (at 218.44 139.7 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 1467ebf6-996b-4480-b872-0bc3eea174cc)
+    (property "Reference" "TP3" (at 215.9 138.43 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TestPoint_2Pole" (at 215.9 140.97 90)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm" (at 218.44 139.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 218.44 139.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d5dd33cd-17bb-46a4-ba1f-169eef38a4b8))
+    (pin "2" (uuid e470ebb1-4595-4598-893e-221d30e8442a))
+    (instances
+      (project "RevA_Mecanismos"
+        (path "/3a16a434-10b7-49a8-988b-273362cb395e/a0534dee-4bf0-4ee7-89a4-28a5c95a5477"
+          (reference "TP3") (unit 1)
+        )
+      )
+      (project "IO_module"
+        (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/e4c969ea-19dc-43d6-ab23-93022e90983a"
+          (reference "TP3") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Connector:TestPoint_2Pole") (at 236.22 139.7 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 518e7550-1f27-44a9-a489-0f57afd0c710)
@@ -252,7 +358,7 @@
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "TestPoint_2Pole" (at 238.76 140.97 90)
-      (effects (font (size 1.27 1.27)) (justify right))
+      (effects (font (size 1.27 1.27)) (justify right) hide)
     )
     (property "Footprint" "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm" (at 236.22 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -271,36 +377,6 @@
       (project "IO_module"
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/e4c969ea-19dc-43d6-ab23-93022e90983a"
           (reference "TP4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+12V") (at 236.22 132.08 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 5950f653-7a62-47b3-a5fa-eebdbcf036c5)
-    (property "Reference" "#PWR030" (at 236.22 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+12V" (at 236.22 127 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 236.22 132.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 236.22 132.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 29410e8b-5f36-4d86-b1d7-c0f53fdfa3ca))
-    (instances
-      (project "RevA_Mecanismos"
-        (path "/3a16a434-10b7-49a8-988b-273362cb395e/a0534dee-4bf0-4ee7-89a4-28a5c95a5477"
-          (reference "#PWR030") (unit 1)
-        )
-      )
-      (project "IO_module"
-        (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/e4c969ea-19dc-43d6-ab23-93022e90983a"
-          (reference "#PWR0172") (unit 1)
         )
       )
     )
@@ -331,6 +407,69 @@
       (project "IO_module"
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/e4c969ea-19dc-43d6-ab23-93022e90983a"
           (reference "#PWR0171") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 218.44 147.32 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 8f346a54-8894-4a2a-8fa4-71daebfab2c4)
+    (property "Reference" "#PWR057" (at 218.44 153.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 218.44 152.4 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 218.44 147.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 218.44 147.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3916dba2-8a1f-4168-9ff8-5efe79be90d5))
+    (instances
+      (project "RevA_Mecanismos"
+        (path "/3a16a434-10b7-49a8-988b-273362cb395e/a0534dee-4bf0-4ee7-89a4-28a5c95a5477"
+          (reference "#PWR057") (unit 1)
+        )
+      )
+      (project "IO_module"
+        (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/e4c969ea-19dc-43d6-ab23-93022e90983a"
+          (reference "#PWR0170") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 218.44 132.08 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 9b546e00-466f-4871-b530-03de6b82011d)
+    (property "Reference" "#PWR056" (at 218.44 135.89 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 218.44 127 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 218.44 132.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 218.44 132.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3ac04edf-124d-499c-ac62-e4ff222770b9))
+    (instances
+      (project "RevA_Mecanismos"
+        (path "/3a16a434-10b7-49a8-988b-273362cb395e/9466c5e7-8595-42d4-852d-e47b24624149"
+          (reference "#PWR056") (unit 1)
+        )
+        (path "/3a16a434-10b7-49a8-988b-273362cb395e/a0534dee-4bf0-4ee7-89a4-28a5c95a5477"
+          (reference "#PWR055") (unit 1)
+        )
+      )
+      (project "stepper_module_v2"
+        (path "/60aa52ba-7ce7-4ce8-b294-2b47b8740a05/e3d003d9-3702-47a9-9630-ba886331ecbf"
+          (reference "#PWR0141") (unit 1)
         )
       )
     )
@@ -373,7 +512,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint_2Pole" (at 224.79 140.97 90)
-      (effects (font (size 1.27 1.27)) (justify left))
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Footprint" "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm" (at 227.33 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
