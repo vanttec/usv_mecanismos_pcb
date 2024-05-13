@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MMSZ4702T1G
+D 15 V Low Current ZenerDiodeVoltage Regulator
+K
+F http://www.onsemi.com/pub/Collateral/MMSZ4678T1-D.PDF
+$ENDCMP
+#
+#End Doc Library

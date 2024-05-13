@@ -3,5 +3,7 @@
   (lib (name "STM32L4-VANTTEC")(type "KiCad")(uri "${KIPRJMOD}/../components/STM32L4/MCU_ST_STM32L4.kicad_sym")(options "")(descr ""))
   (lib (name "MAX33040EAKA+T")(type "Legacy")(uri "${KIPRJMOD}/../components/MAX33040EAKA+T/MAX33040EAKA+T.lib")(options "")(descr ""))
   (lib (name "MolexConnectors")(type "KiCad")(uri "${KIPRJMOD}/../components/MolexConnectors/MolexConnectors.kicad_sym")(options "")(descr ""))
-  (lib (name "CustomUtilities")(type "KiCad")(uri "C:/VantTec/usv_mecanismos_pcb/RevA_Mecanismos/components/CustomUtilities/CustomUtilities.kicad_sym")(options "")(descr ""))
+  (lib (name "CustomUtilities")(type "KiCad")(uri "${KIPRJMOD}/../components/CustomUtilities/CustomUtilities.kicad_sym")(options "")(descr ""))
+  (lib (name "MMSZ4702T1G")(type "KiCad")(uri "${KIPRJMOD}/../components/MMSZ4702T1G/MMSZ4702T1G.kicad_sym")(options "")(descr ""))
+  (lib (name "NDS352AP")(type "Legacy")(uri "${KIPRJMOD}/../components/NDS352AP/NDS352AP.lib")(options "")(descr ""))
 )

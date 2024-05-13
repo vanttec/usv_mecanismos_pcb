@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "MAX33040EAKA+T")(type "KiCad")(uri "${KIPRJMOD}/../components/MAX33040EAKA+T/MAX33040EAKA+T.pretty")(options "")(descr ""))
+  (lib (name "MMSZ4702T1G")(type "KiCad")(uri "${KIPRJMOD}/../components/MMSZ4702T1G/MMSZ4702T1G.pretty")(options "")(descr ""))
+  (lib (name "MolexConnectors")(type "KiCad")(uri "${KIPRJMOD}/../components/MolexConnectors/MolexConnectors.pretty")(options "")(descr ""))
+  (lib (name "NDS352AP")(type "KiCad")(uri "${KIPRJMOD}/../components/NDS352AP/NDS352AP.pretty")(options "")(descr ""))
+)
