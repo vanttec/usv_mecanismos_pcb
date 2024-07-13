@@ -5296,7 +5296,7 @@
 
   (footprint "footprints:sticker" (layer "B.Cu")
     (tstamp aaa2b61a-74a9-4de8-a2d4-3763526963e5)
-    (at 203.7 121.9 180)
+    (at 203.2 129.54 180)
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "G***" (at 0 0) (layer "B.SilkS") hide
         (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))

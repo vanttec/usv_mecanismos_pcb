@@ -1148,7 +1148,7 @@
   (symbol (lib_id "CustomUtilities:+VBATT") (at 236.22 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0789fd33-9153-4c04-a98a-77cb30ae63c5)
-    (property "Reference" "#PWR054" (at 236.22 132.08 0)
+    (property "Reference" "#PWR030" (at 236.22 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+VBATT" (at 236.22 127 0)
@@ -1163,9 +1163,6 @@
     (pin "1" (uuid 4054ee53-8f4e-431b-9175-2c82cf6b3427))
     (instances
       (project "RevA_Mecanismos"
-        (path "/3a16a434-10b7-49a8-988b-273362cb395e/9466c5e7-8595-42d4-852d-e47b24624149"
-          (reference "#PWR054") (unit 1)
-        )
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/a0534dee-4bf0-4ee7-89a4-28a5c95a5477"
           (reference "#PWR030") (unit 1)
         )
@@ -1837,7 +1834,7 @@
   (symbol (lib_id "power:+5V") (at 218.44 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9b546e00-466f-4871-b530-03de6b82011d)
-    (property "Reference" "#PWR056" (at 218.44 135.89 0)
+    (property "Reference" "#PWR055" (at 218.44 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 218.44 127 0)
@@ -1852,9 +1849,6 @@
     (pin "1" (uuid 386666d0-596d-4e79-b967-4c4931e6064e))
     (instances
       (project "RevA_Mecanismos"
-        (path "/3a16a434-10b7-49a8-988b-273362cb395e/9466c5e7-8595-42d4-852d-e47b24624149"
-          (reference "#PWR056") (unit 1)
-        )
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/a0534dee-4bf0-4ee7-89a4-28a5c95a5477"
           (reference "#PWR055") (unit 1)
         )
@@ -1870,7 +1864,7 @@
   (symbol (lib_id "power:+3.3V") (at 46.99 128.27 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a3e7d630-fcc9-414c-8cce-9ce4ac8c590d)
-    (property "Reference" "#PWR051" (at 43.18 128.27 0)
+    (property "Reference" "#PWR09" (at 43.18 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 50.8 128.905 90)
@@ -1885,9 +1879,6 @@
     (pin "1" (uuid ddede33d-9dea-4323-87c1-83b5ad29d05b))
     (instances
       (project "RevA_Mecanismos"
-        (path "/3a16a434-10b7-49a8-988b-273362cb395e/9466c5e7-8595-42d4-852d-e47b24624149"
-          (reference "#PWR051") (unit 1)
-        )
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/a0534dee-4bf0-4ee7-89a4-28a5c95a5477"
           (reference "#PWR09") (unit 1)
         )
