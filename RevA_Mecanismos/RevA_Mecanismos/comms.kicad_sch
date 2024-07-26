@@ -818,7 +818,7 @@
   (junction (at 106.68 78.74) (diameter 1.016) (color 0 0 0 0)
     (uuid 075493fa-8e4c-46b6-a914-fbd427fcb5f9)
   )
-  (junction (at 193.04 113.03) (diameter 0) (color 0 0 0 0)
+  (junction (at 204.47 114.3) (diameter 0) (color 0 0 0 0)
     (uuid 14746a11-6b8e-4a19-9da6-3ddf1d0373d9)
   )
   (junction (at 129.54 67.31) (diameter 0) (color 0 0 0 0)
@@ -884,7 +884,7 @@
     (stroke (width 0) (type solid))
     (uuid 16a0dbd5-afa9-4daa-8ccd-8dca25e1aea6)
   )
-  (wire (pts (xy 191.77 109.22) (xy 190.5 109.22))
+  (wire (pts (xy 203.2 110.49) (xy 201.93 110.49))
     (stroke (width 0) (type default))
     (uuid 16fabf7f-437f-43c2-a225-aad09d128d1c)
   )
@@ -928,11 +928,11 @@
     (stroke (width 0) (type solid))
     (uuid 37d0d797-c463-44fd-bd27-ccbf38196867)
   )
-  (wire (pts (xy 191.77 105.41) (xy 194.31 105.41))
+  (wire (pts (xy 203.2 106.68) (xy 205.74 106.68))
     (stroke (width 0) (type default))
     (uuid 3be029a0-8759-43c6-abdd-1ce13553e178)
   )
-  (wire (pts (xy 193.04 114.3) (xy 193.04 113.03))
+  (wire (pts (xy 204.47 115.57) (xy 204.47 114.3))
     (stroke (width 0) (type default))
     (uuid 3f611191-9164-4088-82bb-d7f713d87a28)
   )
@@ -956,7 +956,7 @@
     (stroke (width 0) (type default))
     (uuid 54ebaff1-9f8e-4ff3-8e17-5cbc7d762a27)
   )
-  (wire (pts (xy 191.77 109.22) (xy 191.77 107.95))
+  (wire (pts (xy 203.2 110.49) (xy 203.2 109.22))
     (stroke (width 0) (type default))
     (uuid 55076115-1cc0-4558-8c16-135069122f80)
   )
@@ -1008,7 +1008,7 @@
     (stroke (width 0) (type default))
     (uuid 8b1a0302-23c5-4cb1-ae11-85c3349259e0)
   )
-  (wire (pts (xy 191.77 104.14) (xy 191.77 105.41))
+  (wire (pts (xy 203.2 105.41) (xy 203.2 106.68))
     (stroke (width 0) (type default))
     (uuid 94e0aca9-aa4e-4c89-83b7-7fafe1a244d9)
   )
@@ -1016,11 +1016,11 @@
     (stroke (width 0) (type solid))
     (uuid 9ad4513d-725f-4d51-be26-6e8efc92dde6)
   )
-  (wire (pts (xy 193.04 110.49) (xy 194.31 110.49))
+  (wire (pts (xy 204.47 111.76) (xy 205.74 111.76))
     (stroke (width 0) (type default))
     (uuid 9cd24187-545c-4dbf-bd80-7230b8454d03)
   )
-  (wire (pts (xy 193.04 113.03) (xy 193.04 110.49))
+  (wire (pts (xy 204.47 114.3) (xy 204.47 111.76))
     (stroke (width 0) (type default))
     (uuid 9d99ae18-b2b3-4f4f-a28a-e6f9436cb5d8)
   )
@@ -1080,7 +1080,7 @@
     (stroke (width 0) (type default))
     (uuid d23f0c21-2441-4129-894a-70bcdce8fb75)
   )
-  (wire (pts (xy 191.77 107.95) (xy 194.31 107.95))
+  (wire (pts (xy 203.2 109.22) (xy 205.74 109.22))
     (stroke (width 0) (type default))
     (uuid d8365f4d-890a-4b2a-89b5-379fe815787b)
   )
@@ -1104,7 +1104,7 @@
     (stroke (width 0) (type solid))
     (uuid e2ea98f1-e5ea-4dc7-b150-0ad4785a7ee0)
   )
-  (wire (pts (xy 190.5 104.14) (xy 191.77 104.14))
+  (wire (pts (xy 201.93 105.41) (xy 203.2 105.41))
     (stroke (width 0) (type default))
     (uuid e8d25891-9d3e-4510-8b4f-cdf41d7082ca)
   )
@@ -1128,7 +1128,7 @@
     (stroke (width 0) (type default))
     (uuid f147f8f5-dc58-4447-adbb-cd4326a72af3)
   )
-  (wire (pts (xy 193.04 113.03) (xy 194.31 113.03))
+  (wire (pts (xy 204.47 114.3) (xy 205.74 114.3))
     (stroke (width 0) (type default))
     (uuid f18fd79c-5bef-4211-82e6-eaa7aa064734)
   )
@@ -1153,7 +1153,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 650acea5-0fc8-4894-b739-f0966436d7c5)
   )
-  (text "I2C CONNECTOR" (at 189.23 93.98 0)
+  (text "I2C CONNECTOR" (at 200.66 95.25 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6f5982c6-a192-497a-a8bd-13fc01fb8219)
   )
@@ -1191,10 +1191,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "SCL" (shape input) (at 190.5 104.14 180) (fields_autoplaced)
+  (global_label "SCL" (shape input) (at 201.93 105.41 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 3b217090-f238-40c2-9003-2da2a717bc08)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 184.0866 104.14 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 195.5166 105.41 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -1212,10 +1212,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "SDA" (shape input) (at 190.5 109.22 180) (fields_autoplaced)
+  (global_label "SDA" (shape input) (at 201.93 110.49 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 51cbaa63-4292-45bf-b959-514ddeeb0e8b)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 184.0261 109.22 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 195.4561 110.49 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -1258,7 +1258,7 @@
   (symbol (lib_id "power:GND") (at 67.31 62.23 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 37bca611-5ddc-41ce-9c49-95dbfdc9a732)
-    (property "Reference" "#PWR020" (at 60.96 62.23 0)
+    (property "Reference" "#PWR023" (at 60.96 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 62.9856 62.3443 0)
@@ -1274,22 +1274,22 @@
     (instances
       (project "RevA_Mecanismos"
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/bcc025d3-9101-4be1-9a90-c8c5267d3d07"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
       (project "stepper_module_v2"
         (path "/60aa52ba-7ce7-4ce8-b294-2b47b8740a05/b2f014f9-4692-4aa0-971a-95a6b54039f1"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "IO_module"
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/f7717af0-8d00-4e6e-af2c-9831ea7ac606"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "general_module"
         (path "/dca60769-f0dc-421e-8977-c562ab033f2a/600a6ed2-7b62-4790-b557-f682cf4705dc"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1298,7 +1298,7 @@
   (symbol (lib_id "power:GND") (at 146.05 63.5 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3a8bd7ab-70e2-44b5-9121-576605a8282e)
-    (property "Reference" "#PWR027" (at 152.4 63.5 0)
+    (property "Reference" "#PWR025" (at 152.4 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 149.2251 63.3857 90)
@@ -1314,22 +1314,22 @@
     (instances
       (project "RevA_Mecanismos"
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/bcc025d3-9101-4be1-9a90-c8c5267d3d07"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
       (project "stepper_module_v2"
         (path "/60aa52ba-7ce7-4ce8-b294-2b47b8740a05/b2f014f9-4692-4aa0-971a-95a6b54039f1"
-          (reference "#PWR0122") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "IO_module"
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/f7717af0-8d00-4e6e-af2c-9831ea7ac606"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "general_module"
         (path "/dca60769-f0dc-421e-8977-c562ab033f2a/600a6ed2-7b62-4790-b557-f682cf4705dc"
-          (reference "#PWR064") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1399,17 +1399,17 @@
       )
       (project "stepper_module_v2"
         (path "/60aa52ba-7ce7-4ce8-b294-2b47b8740a05/b2f014f9-4692-4aa0-971a-95a6b54039f1"
-          (reference "IC3") (unit 1)
+          (reference "IC?") (unit 1)
         )
       )
       (project "IO_module"
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/f7717af0-8d00-4e6e-af2c-9831ea7ac606"
-          (reference "IC3") (unit 1)
+          (reference "IC?") (unit 1)
         )
       )
       (project "general_module"
         (path "/dca60769-f0dc-421e-8977-c562ab033f2a/600a6ed2-7b62-4790-b557-f682cf4705dc"
-          (reference "IC1") (unit 1)
+          (reference "IC?") (unit 1)
         )
       )
     )
@@ -1418,7 +1418,7 @@
   (symbol (lib_id "power:GND") (at 245.11 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 41fd0e7c-b2d5-449c-b685-365f9849eea0)
-    (property "Reference" "#PWR069" (at 245.11 121.92 0)
+    (property "Reference" "#PWR027" (at 245.11 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 245.11 119.38 0)
@@ -1434,22 +1434,22 @@
     (instances
       (project "RevA_Mecanismos"
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/bcc025d3-9101-4be1-9a90-c8c5267d3d07"
-          (reference "#PWR069") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
       (project "stepper_module_v2"
         (path "/60aa52ba-7ce7-4ce8-b294-2b47b8740a05/b2f014f9-4692-4aa0-971a-95a6b54039f1"
-          (reference "#PWR0125") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "IO_module"
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/f7717af0-8d00-4e6e-af2c-9831ea7ac606"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "general_module"
         (path "/dca60769-f0dc-421e-8977-c562ab033f2a/600a6ed2-7b62-4790-b557-f682cf4705dc"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1458,7 +1458,7 @@
   (symbol (lib_id "Device:R_Small") (at 105.41 73.66 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 498c86ad-8f7c-4b38-b866-fd693e70e4bd)
-    (property "Reference" "R6" (at 102.87 76.2 90)
+    (property "Reference" "R8" (at 102.87 76.2 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0" (at 103.505 70.485 90)
@@ -1481,22 +1481,22 @@
     (instances
       (project "RevA_Mecanismos"
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/bcc025d3-9101-4be1-9a90-c8c5267d3d07"
-          (reference "R6") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
       (project "stepper_module_v2"
         (path "/60aa52ba-7ce7-4ce8-b294-2b47b8740a05/b2f014f9-4692-4aa0-971a-95a6b54039f1"
-          (reference "R4") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "IO_module"
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/f7717af0-8d00-4e6e-af2c-9831ea7ac606"
-          (reference "R52") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "general_module"
         (path "/dca60769-f0dc-421e-8977-c562ab033f2a/600a6ed2-7b62-4790-b557-f682cf4705dc"
-          (reference "R25") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -1530,20 +1530,20 @@
       )
       (project "stepper_module_v2"
         (path "/60aa52ba-7ce7-4ce8-b294-2b47b8740a05"
-          (reference "C5") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/60aa52ba-7ce7-4ce8-b294-2b47b8740a05/b2f014f9-4692-4aa0-971a-95a6b54039f1"
-          (reference "C15") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "IO_module"
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/f7717af0-8d00-4e6e-af2c-9831ea7ac606"
-          (reference "C26") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "general_module"
         (path "/dca60769-f0dc-421e-8977-c562ab033f2a/600a6ed2-7b62-4790-b557-f682cf4705dc"
-          (reference "C17") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -1552,7 +1552,7 @@
   (symbol (lib_id "Power_Protection:NUP2105L") (at 138.43 63.5 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4d67e11a-bec5-4460-8c95-aad0e6dd7ab5)
-    (property "Reference" "D1" (at 138.43 72.1552 90)
+    (property "Reference" "D2" (at 138.43 72.1552 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "NUP2105L" (at 138.43 69.8565 90)
@@ -1576,62 +1576,62 @@
     (instances
       (project "RevA_Mecanismos"
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/bcc025d3-9101-4be1-9a90-c8c5267d3d07"
-          (reference "D1") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
       (project "stepper_module_v2"
         (path "/60aa52ba-7ce7-4ce8-b294-2b47b8740a05/b2f014f9-4692-4aa0-971a-95a6b54039f1"
-          (reference "D1") (unit 1)
+          (reference "D?") (unit 1)
         )
       )
       (project "IO_module"
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/f7717af0-8d00-4e6e-af2c-9831ea7ac606"
-          (reference "D18") (unit 1)
+          (reference "D?") (unit 1)
         )
       )
       (project "general_module"
         (path "/dca60769-f0dc-421e-8977-c562ab033f2a/600a6ed2-7b62-4790-b557-f682cf4705dc"
-          (reference "D12") (unit 1)
+          (reference "D?") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:GND") (at 193.04 114.3 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 204.47 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 54899ac5-70c7-4051-828d-969e7b57f2db)
-    (property "Reference" "#PWR067" (at 193.04 120.65 0)
+    (property "Reference" "#PWR026" (at 204.47 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 193.04 118.11 0)
+    (property "Value" "GND" (at 204.47 119.38 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 193.04 114.3 0)
+    (property "Footprint" "" (at 204.47 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 193.04 114.3 0)
+    (property "Datasheet" "" (at 204.47 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5c727a57-071d-42e2-9a0b-81c118a79863))
     (instances
       (project "RevA_Mecanismos"
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/bcc025d3-9101-4be1-9a90-c8c5267d3d07"
-          (reference "#PWR067") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
       (project "stepper_module_v2"
         (path "/60aa52ba-7ce7-4ce8-b294-2b47b8740a05/b2f014f9-4692-4aa0-971a-95a6b54039f1"
-          (reference "#PWR0125") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "IO_module"
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/f7717af0-8d00-4e6e-af2c-9831ea7ac606"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "general_module"
         (path "/dca60769-f0dc-421e-8977-c562ab033f2a/600a6ed2-7b62-4790-b557-f682cf4705dc"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1640,7 +1640,7 @@
   (symbol (lib_id "power:GND") (at 106.68 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5a097684-02e9-417c-8696-eb00f3dd17c3)
-    (property "Reference" "#PWR026" (at 106.68 87.63 0)
+    (property "Reference" "#PWR024" (at 106.68 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 107.159 84.455 90)
@@ -1656,22 +1656,22 @@
     (instances
       (project "RevA_Mecanismos"
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/bcc025d3-9101-4be1-9a90-c8c5267d3d07"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
       (project "stepper_module_v2"
         (path "/60aa52ba-7ce7-4ce8-b294-2b47b8740a05/b2f014f9-4692-4aa0-971a-95a6b54039f1"
-          (reference "#PWR0126") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "IO_module"
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/f7717af0-8d00-4e6e-af2c-9831ea7ac606"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "general_module"
         (path "/dca60769-f0dc-421e-8977-c562ab033f2a/600a6ed2-7b62-4790-b557-f682cf4705dc"
-          (reference "#PWR062") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1680,7 +1680,7 @@
   (symbol (lib_id "MolexConnectors:430450224") (at 246.38 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 684f4413-f6e8-425a-97c3-649283e4c12b)
-    (property "Reference" "J7" (at 260.35 109.855 0)
+    (property "Reference" "J6" (at 260.35 109.855 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
     (property "Value" "430450224" (at 260.35 112.395 0)
@@ -1699,15 +1699,15 @@
     (instances
       (project "RevA_Mecanismos"
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/bcc025d3-9101-4be1-9a90-c8c5267d3d07"
-          (reference "J7") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
       (project "IO_module"
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/6827cc41-e653-4625-897e-6c33279fd587"
-          (reference "J17") (unit 1)
+          (reference "J?") (unit 1)
         )
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/f7717af0-8d00-4e6e-af2c-9831ea7ac606"
-          (reference "J7") (unit 1)
+          (reference "J?") (unit 1)
         )
       )
     )
@@ -1716,7 +1716,7 @@
   (symbol (lib_id "Device:R_Small") (at 107.95 73.66 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7ac3c68b-0ad0-45c9-918f-3ae5f34ff900)
-    (property "Reference" "R7" (at 110.49 74.295 90)
+    (property "Reference" "R9" (at 110.49 74.295 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0" (at 109.855 70.485 90)
@@ -1739,22 +1739,22 @@
     (instances
       (project "RevA_Mecanismos"
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/bcc025d3-9101-4be1-9a90-c8c5267d3d07"
-          (reference "R7") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
       (project "stepper_module_v2"
         (path "/60aa52ba-7ce7-4ce8-b294-2b47b8740a05/b2f014f9-4692-4aa0-971a-95a6b54039f1"
-          (reference "R5") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "IO_module"
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/f7717af0-8d00-4e6e-af2c-9831ea7ac606"
-          (reference "R53") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "general_module"
         (path "/dca60769-f0dc-421e-8977-c562ab033f2a/600a6ed2-7b62-4790-b557-f682cf4705dc"
-          (reference "R27") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -1763,7 +1763,7 @@
   (symbol (lib_id "power:+3.3V") (at 34.29 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7dc3eedc-f565-4bd3-abdd-8bd321a020db)
-    (property "Reference" "#PWR08" (at 34.29 64.77 0)
+    (property "Reference" "#PWR021" (at 34.29 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 34.6583 57.7849 90)
@@ -1779,22 +1779,22 @@
     (instances
       (project "RevA_Mecanismos"
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/bcc025d3-9101-4be1-9a90-c8c5267d3d07"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
       (project "stepper_module_v2"
         (path "/60aa52ba-7ce7-4ce8-b294-2b47b8740a05/b2f014f9-4692-4aa0-971a-95a6b54039f1"
-          (reference "#PWR0123") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "IO_module"
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/f7717af0-8d00-4e6e-af2c-9831ea7ac606"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "general_module"
         (path "/dca60769-f0dc-421e-8977-c562ab033f2a/600a6ed2-7b62-4790-b557-f682cf4705dc"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1803,7 +1803,7 @@
   (symbol (lib_id "Device:R_Small") (at 120.65 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9ababdf4-00ad-4786-81ce-47ae454c9b5a)
-    (property "Reference" "R8" (at 122.1487 62.3506 0)
+    (property "Reference" "R10" (at 122.1487 62.3506 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "120" (at 122.149 64.649 0)
@@ -1823,40 +1823,40 @@
     (instances
       (project "RevA_Mecanismos"
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/bcc025d3-9101-4be1-9a90-c8c5267d3d07"
-          (reference "R8") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
       (project "stepper_module_v2"
         (path "/60aa52ba-7ce7-4ce8-b294-2b47b8740a05/b2f014f9-4692-4aa0-971a-95a6b54039f1"
-          (reference "R34") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "IO_module"
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/f7717af0-8d00-4e6e-af2c-9831ea7ac606"
-          (reference "R54") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "general_module"
         (path "/dca60769-f0dc-421e-8977-c562ab033f2a/600a6ed2-7b62-4790-b557-f682cf4705dc"
-          (reference "R28") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "MolexConnectors:430450224") (at 194.31 105.41 0) (unit 1)
+  (symbol (lib_id "MolexConnectors:430450224") (at 205.74 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a4ae2901-f4ec-48d2-ba54-97b86904dec1)
-    (property "Reference" "J6" (at 208.28 108.585 0)
+    (property "Reference" "J4" (at 219.71 109.855 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Value" "430450224" (at 208.28 111.125 0)
+    (property "Value" "430450224" (at 219.71 112.395 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "MolexConnectors:CON_430450224_MOL" (at 194.31 105.41 0)
+    (property "Footprint" "MolexConnectors:CON_430450224_MOL" (at 205.74 106.68 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (property "Datasheet" "430450224" (at 194.31 105.41 0)
+    (property "Datasheet" "430450224" (at 205.74 106.68 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (pin "1" (uuid 85c56f90-a862-4963-b9a1-21a02ca29adf))
@@ -1866,15 +1866,15 @@
     (instances
       (project "RevA_Mecanismos"
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/bcc025d3-9101-4be1-9a90-c8c5267d3d07"
-          (reference "J6") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
       (project "IO_module"
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/6827cc41-e653-4625-897e-6c33279fd587"
-          (reference "J17") (unit 1)
+          (reference "J?") (unit 1)
         )
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/f7717af0-8d00-4e6e-af2c-9831ea7ac606"
-          (reference "J3") (unit 1)
+          (reference "J?") (unit 1)
         )
       )
     )
@@ -1883,7 +1883,7 @@
   (symbol (lib_id "power:GND") (at 43.18 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bbbb6898-0441-46a3-afa5-43634f3600f2)
-    (property "Reference" "#PWR017" (at 43.18 82.55 0)
+    (property "Reference" "#PWR022" (at 43.18 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 43.2943 79.375 90)
@@ -1899,31 +1899,31 @@
     (instances
       (project "RevA_Mecanismos"
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/bcc025d3-9101-4be1-9a90-c8c5267d3d07"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
       (project "stepper_module_v2"
         (path "/60aa52ba-7ce7-4ce8-b294-2b47b8740a05/b2f014f9-4692-4aa0-971a-95a6b54039f1"
-          (reference "#PWR0125") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "IO_module"
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/f7717af0-8d00-4e6e-af2c-9831ea7ac606"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "general_module"
         (path "/dca60769-f0dc-421e-8977-c562ab033f2a/600a6ed2-7b62-4790-b557-f682cf4705dc"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "MolexConnectors:430450224") (at 246.38 142.24 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c6f1f9de-bec2-4e0e-9760-819467933f0e)
-    (property "Reference" "J4" (at 260.35 145.415 0)
+    (property "Reference" "J7" (at 260.35 145.415 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
     (property "Value" "430450224" (at 260.35 147.955 0)
@@ -1942,15 +1942,15 @@
     (instances
       (project "RevA_Mecanismos"
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/bcc025d3-9101-4be1-9a90-c8c5267d3d07"
-          (reference "J4") (unit 1)
+          (reference "J7") (unit 1)
         )
       )
       (project "IO_module"
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/6827cc41-e653-4625-897e-6c33279fd587"
-          (reference "J17") (unit 1)
+          (reference "J?") (unit 1)
         )
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/f7717af0-8d00-4e6e-af2c-9831ea7ac606"
-          (reference "J7") (unit 1)
+          (reference "J?") (unit 1)
         )
       )
     )
@@ -1959,10 +1959,10 @@
   (symbol (lib_id "MolexConnectors:430450224") (at 205.74 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d69d90c3-ea05-4fd1-8f95-9822779ac5e3)
-    (property "Reference" "J3" (at 219.71 145.415 0)
+    (property "Reference" "J5" (at 219.71 144.78 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Value" "430450224" (at 219.71 147.955 0)
+    (property "Value" "430450224" (at 219.71 147.32 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
     (property "Footprint" "MolexConnectors:CON_430450224_MOL" (at 205.74 142.24 0)
@@ -1978,15 +1978,15 @@
     (instances
       (project "RevA_Mecanismos"
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/bcc025d3-9101-4be1-9a90-c8c5267d3d07"
-          (reference "J3") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
       (project "IO_module"
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/6827cc41-e653-4625-897e-6c33279fd587"
-          (reference "J17") (unit 1)
+          (reference "J?") (unit 1)
         )
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/f7717af0-8d00-4e6e-af2c-9831ea7ac606"
-          (reference "J3") (unit 1)
+          (reference "J?") (unit 1)
         )
       )
     )
@@ -2020,20 +2020,20 @@
       )
       (project "stepper_module_v2"
         (path "/60aa52ba-7ce7-4ce8-b294-2b47b8740a05"
-          (reference "C8") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/60aa52ba-7ce7-4ce8-b294-2b47b8740a05/b2f014f9-4692-4aa0-971a-95a6b54039f1"
-          (reference "C14") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "IO_module"
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/f7717af0-8d00-4e6e-af2c-9831ea7ac606"
-          (reference "C20") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "general_module"
         (path "/dca60769-f0dc-421e-8977-c562ab033f2a/600a6ed2-7b62-4790-b557-f682cf4705dc"
-          (reference "C15") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -2042,7 +2042,7 @@
   (symbol (lib_id "Connector:Conn_01x03_Pin") (at 120.65 73.66 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ef40d3e0-773a-479d-9ae9-6684a4a36da3)
-    (property "Reference" "J2" (at 120.65 75.946 90)
+    (property "Reference" "J3" (at 120.65 75.946 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x03_Pin" (at 120.65 78.486 90)
@@ -2063,22 +2063,22 @@
     (instances
       (project "RevA_Mecanismos"
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/bcc025d3-9101-4be1-9a90-c8c5267d3d07"
-          (reference "J2") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
       (project "stepper_module_v2"
         (path "/60aa52ba-7ce7-4ce8-b294-2b47b8740a05/b2f014f9-4692-4aa0-971a-95a6b54039f1"
-          (reference "J13") (unit 1)
+          (reference "J?") (unit 1)
         )
       )
       (project "IO_module"
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/f7717af0-8d00-4e6e-af2c-9831ea7ac606"
-          (reference "J13") (unit 1)
+          (reference "J?") (unit 1)
         )
       )
       (project "general_module"
         (path "/dca60769-f0dc-421e-8977-c562ab033f2a/600a6ed2-7b62-4790-b557-f682cf4705dc"
-          (reference "J10") (unit 1)
+          (reference "J?") (unit 1)
         )
       )
     )

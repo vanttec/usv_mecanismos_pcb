@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "FDN335N"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-09-28-10:21:36)
+    (mountForm default
+        (footprintRef "SOT95P251X112-3N")
+        (spec "System")
+    )
+)

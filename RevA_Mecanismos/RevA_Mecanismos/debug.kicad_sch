@@ -619,6 +619,58 @@
         )
       )
     )
+    (symbol "power:+12V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+12V" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"+12V\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+12V_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "+12V_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+12V" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "power:+3.3V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -884,6 +936,10 @@
     (stroke (width 0) (type solid))
     (uuid 905b6861-a177-432d-8b7c-2d0bac25a5c1)
   )
+  (wire (pts (xy 209.55 134.62) (xy 209.55 132.08))
+    (stroke (width 0) (type solid))
+    (uuid 9739dff0-8a82-4d7d-bc8d-8e111489ca8f)
+  )
   (wire (pts (xy 223.52 67.31) (xy 229.87 67.31))
     (stroke (width 0) (type default))
     (uuid 9768e6df-e07a-484e-b493-7171eaed417f)
@@ -939,6 +995,10 @@
   (wire (pts (xy 43.18 115.57) (xy 46.99 115.57))
     (stroke (width 0) (type solid))
     (uuid d34245c4-dd8a-4798-8807-bd18c4075d90)
+  )
+  (wire (pts (xy 209.55 147.32) (xy 209.55 144.78))
+    (stroke (width 0) (type solid))
+    (uuid d3a099d4-4e16-45b5-b74c-73be1758882c)
   )
   (wire (pts (xy 43.18 80.01) (xy 46.99 80.01))
     (stroke (width 0) (type solid))
@@ -1118,7 +1178,7 @@
   (symbol (lib_id "power:GND") (at 46.99 125.73 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 077b9528-ad07-4113-bd25-d61fac12ff97)
-    (property "Reference" "#PWR066" (at 53.34 125.73 0)
+    (property "Reference" "#PWR052" (at 53.34 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 50.1651 126.209 90)
@@ -1134,12 +1194,12 @@
     (instances
       (project "RevA_Mecanismos"
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/a0534dee-4bf0-4ee7-89a4-28a5c95a5477"
-          (reference "#PWR066") (unit 1)
+          (reference "#PWR052") (unit 1)
         )
       )
       (project "vanttec-stm-revb-pcb"
         (path "/ba4b9df0-26df-428a-b87a-cb6a6b17587e/3689f047-307f-48e1-8548-99c912f50634"
-          (reference "#PWR081") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1148,7 +1208,7 @@
   (symbol (lib_id "CustomUtilities:+VBATT") (at 236.22 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0789fd33-9153-4c04-a98a-77cb30ae63c5)
-    (property "Reference" "#PWR030" (at 236.22 132.08 0)
+    (property "Reference" "#PWR060" (at 236.22 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+VBATT" (at 236.22 127 0)
@@ -1164,7 +1224,7 @@
     (instances
       (project "RevA_Mecanismos"
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/a0534dee-4bf0-4ee7-89a4-28a5c95a5477"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR060") (unit 1)
         )
       )
     )
@@ -1173,7 +1233,7 @@
   (symbol (lib_id "Device:R_Small") (at 232.41 93.98 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0bcbe20c-bc99-4c23-a6a5-70ad922b7200)
-    (property "Reference" "R26" (at 232.41 88.9 90)
+    (property "Reference" "R23" (at 232.41 88.9 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220" (at 232.41 91.44 90)
@@ -1190,12 +1250,12 @@
     (instances
       (project "RevA_Mecanismos"
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/a0534dee-4bf0-4ee7-89a4-28a5c95a5477"
-          (reference "R26") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
       (project "IO_module"
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/e4c969ea-19dc-43d6-ab23-93022e90983a"
-          (reference "R19") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -1204,7 +1264,7 @@
   (symbol (lib_id "power:GND") (at 227.33 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 117ab3fa-213f-4208-92c0-9beab993f507)
-    (property "Reference" "#PWR021" (at 227.33 153.67 0)
+    (property "Reference" "#PWR059" (at 227.33 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 227.33 152.4 0)
@@ -1220,12 +1280,12 @@
     (instances
       (project "RevA_Mecanismos"
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/a0534dee-4bf0-4ee7-89a4-28a5c95a5477"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR059") (unit 1)
         )
       )
       (project "IO_module"
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/e4c969ea-19dc-43d6-ab23-93022e90983a"
-          (reference "#PWR0170") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1234,7 +1294,7 @@
   (symbol (lib_id "Connector:TestPoint_2Pole") (at 218.44 139.7 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1467ebf6-996b-4480-b872-0bc3eea174cc)
-    (property "Reference" "TP3" (at 217.17 139.7 90)
+    (property "Reference" "TP2" (at 217.17 139.7 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint_2Pole" (at 215.9 140.97 90)
@@ -1251,12 +1311,12 @@
     (instances
       (project "RevA_Mecanismos"
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/a0534dee-4bf0-4ee7-89a4-28a5c95a5477"
-          (reference "TP3") (unit 1)
+          (reference "TP2") (unit 1)
         )
       )
       (project "IO_module"
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/e4c969ea-19dc-43d6-ab23-93022e90983a"
-          (reference "TP3") (unit 1)
+          (reference "TP?") (unit 1)
         )
       )
     )
@@ -1265,7 +1325,7 @@
   (symbol (lib_id "power:GND") (at 240.03 93.98 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 174a21b9-63da-4b94-a492-a6de402ae610)
-    (property "Reference" "#PWR064" (at 246.38 93.98 0)
+    (property "Reference" "#PWR067" (at 246.38 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 243.84 93.98 90)
@@ -1281,12 +1341,12 @@
     (instances
       (project "RevA_Mecanismos"
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/a0534dee-4bf0-4ee7-89a4-28a5c95a5477"
-          (reference "#PWR064") (unit 1)
+          (reference "#PWR067") (unit 1)
         )
       )
       (project "IO_module"
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/e4c969ea-19dc-43d6-ab23-93022e90983a"
-          (reference "#PWR0174") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1295,7 +1355,7 @@
   (symbol (lib_id "Device:R_Small") (at 232.41 58.42 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1c4ebed2-391b-4092-99a7-9b92d67e672f)
-    (property "Reference" "R22" (at 232.41 53.34 90)
+    (property "Reference" "R19" (at 232.41 53.34 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220" (at 232.41 55.88 90)
@@ -1312,12 +1372,12 @@
     (instances
       (project "RevA_Mecanismos"
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/a0534dee-4bf0-4ee7-89a4-28a5c95a5477"
-          (reference "R22") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
       (project "IO_module"
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/e4c969ea-19dc-43d6-ab23-93022e90983a"
-          (reference "R15") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -1326,7 +1386,7 @@
   (symbol (lib_id "Device:LED_Small") (at 220.98 85.09 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 224bbd68-ffda-4eba-b073-5e3f66e30093)
-    (property "Reference" "D17" (at 220.9165 80.3742 0)
+    (property "Reference" "D11" (at 220.9165 80.3742 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED_Small" (at 220.9165 82.9111 0)
@@ -1343,12 +1403,12 @@
     (instances
       (project "RevA_Mecanismos"
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/a0534dee-4bf0-4ee7-89a4-28a5c95a5477"
-          (reference "D17") (unit 1)
+          (reference "D11") (unit 1)
         )
       )
       (project "IO_module"
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/e4c969ea-19dc-43d6-ab23-93022e90983a"
-          (reference "D11") (unit 1)
+          (reference "D?") (unit 1)
         )
       )
     )
@@ -1357,7 +1417,7 @@
   (symbol (lib_id "Connector:Conn_01x24_Pin") (at 38.1 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 381ff8e7-473b-45b1-a01a-889f09bac1ae)
-    (property "Reference" "J5" (at 30.48 96.52 0)
+    (property "Reference" "J8" (at 30.48 96.52 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "DEBUG_CONN" (at 30.48 99.06 0)
@@ -1396,7 +1456,7 @@
     (instances
       (project "RevA_Mecanismos"
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/a0534dee-4bf0-4ee7-89a4-28a5c95a5477"
-          (reference "J5") (unit 1)
+          (reference "J8") (unit 1)
         )
       )
     )
@@ -1405,7 +1465,7 @@
   (symbol (lib_id "Device:R_Small") (at 232.41 67.31 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3bab2f8e-bfb2-4df1-81dc-af076385197f)
-    (property "Reference" "R23" (at 232.41 62.23 90)
+    (property "Reference" "R20" (at 232.41 62.23 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220" (at 232.41 64.77 90)
@@ -1422,12 +1482,12 @@
     (instances
       (project "RevA_Mecanismos"
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/a0534dee-4bf0-4ee7-89a4-28a5c95a5477"
-          (reference "R23") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
       (project "IO_module"
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/e4c969ea-19dc-43d6-ab23-93022e90983a"
-          (reference "R16") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -1436,7 +1496,7 @@
   (symbol (lib_id "Connector:TestPoint_2Pole") (at 264.16 139.7 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3d94e479-df6c-4ea0-839a-83288080e191)
-    (property "Reference" "TP4" (at 259.08 139.7 90)
+    (property "Reference" "TP5" (at 259.08 139.7 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "TestPoint_2Pole" (at 266.7 140.97 90)
@@ -1453,12 +1513,12 @@
     (instances
       (project "RevA_Mecanismos"
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/a0534dee-4bf0-4ee7-89a4-28a5c95a5477"
-          (reference "TP4") (unit 1)
+          (reference "TP5") (unit 1)
         )
       )
       (project "IO_module"
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/e4c969ea-19dc-43d6-ab23-93022e90983a"
-          (reference "TP4") (unit 1)
+          (reference "TP?") (unit 1)
         )
       )
     )
@@ -1467,7 +1527,7 @@
   (symbol (lib_id "power:GND") (at 240.03 49.53 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 435edbfe-2bea-46b1-8a83-cec4442f6ad7)
-    (property "Reference" "#PWR059" (at 246.38 49.53 0)
+    (property "Reference" "#PWR062" (at 246.38 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 243.84 49.53 90)
@@ -1483,12 +1543,12 @@
     (instances
       (project "RevA_Mecanismos"
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/a0534dee-4bf0-4ee7-89a4-28a5c95a5477"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR062") (unit 1)
         )
       )
       (project "IO_module"
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/e4c969ea-19dc-43d6-ab23-93022e90983a"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1497,7 +1557,7 @@
   (symbol (lib_id "power:GND") (at 240.03 58.42 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4bf3d89c-55d8-4825-a6cc-9f3637fb7190)
-    (property "Reference" "#PWR060" (at 246.38 58.42 0)
+    (property "Reference" "#PWR063" (at 246.38 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 243.84 58.42 90)
@@ -1513,12 +1573,12 @@
     (instances
       (project "RevA_Mecanismos"
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/a0534dee-4bf0-4ee7-89a4-28a5c95a5477"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR063") (unit 1)
         )
       )
       (project "IO_module"
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/e4c969ea-19dc-43d6-ab23-93022e90983a"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1527,7 +1587,7 @@
   (symbol (lib_id "Connector:TestPoint_2Pole") (at 236.22 139.7 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 518e7550-1f27-44a9-a489-0f57afd0c710)
-    (property "Reference" "TP2" (at 231.14 139.7 90)
+    (property "Reference" "TP4" (at 231.14 139.7 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "TestPoint_2Pole" (at 238.76 140.97 90)
@@ -1544,12 +1604,12 @@
     (instances
       (project "RevA_Mecanismos"
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/a0534dee-4bf0-4ee7-89a4-28a5c95a5477"
-          (reference "TP2") (unit 1)
+          (reference "TP4") (unit 1)
         )
       )
       (project "IO_module"
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/e4c969ea-19dc-43d6-ab23-93022e90983a"
-          (reference "TP4") (unit 1)
+          (reference "TP?") (unit 1)
         )
       )
     )
@@ -1558,7 +1618,7 @@
   (symbol (lib_id "power:GND") (at 240.03 76.2 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 51ce5062-972b-4bfe-bf0c-395c157cab8b)
-    (property "Reference" "#PWR062" (at 246.38 76.2 0)
+    (property "Reference" "#PWR065" (at 246.38 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 243.84 76.2 90)
@@ -1574,12 +1634,12 @@
     (instances
       (project "RevA_Mecanismos"
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/a0534dee-4bf0-4ee7-89a4-28a5c95a5477"
-          (reference "#PWR062") (unit 1)
+          (reference "#PWR065") (unit 1)
         )
       )
       (project "IO_module"
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/e4c969ea-19dc-43d6-ab23-93022e90983a"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1588,7 +1648,7 @@
   (symbol (lib_id "Device:R_Small") (at 232.41 49.53 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 66d4250f-b6b6-4de1-901d-2a109af4d1c9)
-    (property "Reference" "R21" (at 232.41 44.45 90)
+    (property "Reference" "R18" (at 232.41 44.45 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220" (at 232.41 46.99 90)
@@ -1605,12 +1665,12 @@
     (instances
       (project "RevA_Mecanismos"
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/a0534dee-4bf0-4ee7-89a4-28a5c95a5477"
-          (reference "R21") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
       (project "IO_module"
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/e4c969ea-19dc-43d6-ab23-93022e90983a"
-          (reference "R14") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -1619,7 +1679,7 @@
   (symbol (lib_id "Device:R_Small") (at 232.41 85.09 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6fa037e8-5cf1-47db-8a07-0521644d4708)
-    (property "Reference" "R25" (at 232.41 80.01 90)
+    (property "Reference" "R22" (at 232.41 80.01 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220" (at 232.41 82.55 90)
@@ -1636,12 +1696,12 @@
     (instances
       (project "RevA_Mecanismos"
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/a0534dee-4bf0-4ee7-89a4-28a5c95a5477"
-          (reference "R25") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
       (project "IO_module"
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/e4c969ea-19dc-43d6-ab23-93022e90983a"
-          (reference "R18") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -1650,7 +1710,7 @@
   (symbol (lib_id "power:GND") (at 236.22 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6fad99a2-db3d-4387-b984-fcbb69509eb7)
-    (property "Reference" "#PWR028" (at 236.22 153.67 0)
+    (property "Reference" "#PWR061" (at 236.22 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 236.22 152.4 0)
@@ -1666,12 +1726,12 @@
     (instances
       (project "RevA_Mecanismos"
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/a0534dee-4bf0-4ee7-89a4-28a5c95a5477"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR061") (unit 1)
         )
       )
       (project "IO_module"
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/e4c969ea-19dc-43d6-ab23-93022e90983a"
-          (reference "#PWR0171") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1680,7 +1740,7 @@
   (symbol (lib_id "Device:LED_Small") (at 220.98 76.2 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7f8cdadb-9d07-4722-806f-94d01433929f)
-    (property "Reference" "D16" (at 220.9165 71.4842 0)
+    (property "Reference" "D10" (at 220.9165 71.4842 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED_Small" (at 220.9165 74.0211 0)
@@ -1697,12 +1757,37 @@
     (instances
       (project "RevA_Mecanismos"
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/a0534dee-4bf0-4ee7-89a4-28a5c95a5477"
-          (reference "D16") (unit 1)
+          (reference "D10") (unit 1)
         )
       )
       (project "IO_module"
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/e4c969ea-19dc-43d6-ab23-93022e90983a"
-          (reference "D10") (unit 1)
+          (reference "D?") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 209.55 147.32 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 80e9f5c6-a3c1-4588-adf6-d1eee8174f35)
+    (property "Reference" "#PWR055" (at 209.55 153.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 209.55 152.4 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 209.55 147.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 209.55 147.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1c45a530-b269-4abc-8e9a-5461ecca5a4f))
+    (instances
+      (project "RevA_Mecanismos"
+        (path "/3a16a434-10b7-49a8-988b-273362cb395e/a0534dee-4bf0-4ee7-89a4-28a5c95a5477"
+          (reference "#PWR055") (unit 1)
         )
       )
     )
@@ -1711,7 +1796,7 @@
   (symbol (lib_id "Device:R_Small") (at 232.41 76.2 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 810f3c9f-b0b8-4f38-83e1-8cfe41171a39)
-    (property "Reference" "R24" (at 232.41 71.12 90)
+    (property "Reference" "R21" (at 232.41 71.12 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220" (at 232.41 73.66 90)
@@ -1728,12 +1813,12 @@
     (instances
       (project "RevA_Mecanismos"
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/a0534dee-4bf0-4ee7-89a4-28a5c95a5477"
-          (reference "R24") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
       (project "IO_module"
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/e4c969ea-19dc-43d6-ab23-93022e90983a"
-          (reference "R17") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -1742,7 +1827,7 @@
   (symbol (lib_id "Device:LED_Small") (at 220.98 93.98 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 82fdaa10-1baf-4d3f-8f0b-b238b169ca2e)
-    (property "Reference" "D18" (at 220.9165 89.2642 0)
+    (property "Reference" "D12" (at 220.9165 89.2642 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED_Small" (at 220.9165 91.8011 0)
@@ -1759,12 +1844,12 @@
     (instances
       (project "RevA_Mecanismos"
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/a0534dee-4bf0-4ee7-89a4-28a5c95a5477"
-          (reference "D18") (unit 1)
+          (reference "D12") (unit 1)
         )
       )
       (project "IO_module"
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/e4c969ea-19dc-43d6-ab23-93022e90983a"
-          (reference "D5") (unit 1)
+          (reference "D?") (unit 1)
         )
       )
     )
@@ -1773,7 +1858,7 @@
   (symbol (lib_id "Device:LED_Small") (at 220.98 49.53 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 873e2e7d-8901-4baa-a53f-59891ed999f4)
-    (property "Reference" "D13" (at 220.9165 44.8142 0)
+    (property "Reference" "D7" (at 220.9165 44.8142 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED_Small" (at 220.9165 47.3511 0)
@@ -1790,12 +1875,12 @@
     (instances
       (project "RevA_Mecanismos"
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/a0534dee-4bf0-4ee7-89a4-28a5c95a5477"
-          (reference "D13") (unit 1)
+          (reference "D7") (unit 1)
         )
       )
       (project "IO_module"
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/e4c969ea-19dc-43d6-ab23-93022e90983a"
-          (reference "D7") (unit 1)
+          (reference "D?") (unit 1)
         )
       )
     )
@@ -1825,7 +1910,33 @@
       )
       (project "IO_module"
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/e4c969ea-19dc-43d6-ab23-93022e90983a"
-          (reference "#PWR0170") (unit 1)
+          (reference "#PWR?") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint_2Pole") (at 209.55 139.7 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 9b4e5751-fc90-4005-8677-de479562a1c3)
+    (property "Reference" "TP1" (at 208.28 139.7 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TestPoint_2Pole" (at 207.01 140.97 90)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm" (at 209.55 139.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 209.55 139.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid bbc37e80-ac5c-4f84-856e-94d138c0bd58))
+    (pin "2" (uuid 6b34edf2-f983-4e00-a4d8-3cef2f61767b))
+    (instances
+      (project "RevA_Mecanismos"
+        (path "/3a16a434-10b7-49a8-988b-273362cb395e/a0534dee-4bf0-4ee7-89a4-28a5c95a5477"
+          (reference "TP1") (unit 1)
         )
       )
     )
@@ -1834,7 +1945,7 @@
   (symbol (lib_id "power:+5V") (at 218.44 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9b546e00-466f-4871-b530-03de6b82011d)
-    (property "Reference" "#PWR055" (at 218.44 135.89 0)
+    (property "Reference" "#PWR056" (at 218.44 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 218.44 127 0)
@@ -1850,12 +1961,12 @@
     (instances
       (project "RevA_Mecanismos"
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/a0534dee-4bf0-4ee7-89a4-28a5c95a5477"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR056") (unit 1)
         )
       )
       (project "stepper_module_v2"
         (path "/60aa52ba-7ce7-4ce8-b294-2b47b8740a05/e3d003d9-3702-47a9-9630-ba886331ecbf"
-          (reference "#PWR0141") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1864,7 +1975,7 @@
   (symbol (lib_id "power:+3.3V") (at 46.99 128.27 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a3e7d630-fcc9-414c-8cce-9ce4ac8c590d)
-    (property "Reference" "#PWR09" (at 43.18 128.27 0)
+    (property "Reference" "#PWR053" (at 43.18 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 50.8 128.905 90)
@@ -1880,12 +1991,12 @@
     (instances
       (project "RevA_Mecanismos"
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/a0534dee-4bf0-4ee7-89a4-28a5c95a5477"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR053") (unit 1)
         )
       )
       (project "stepper_module_v2"
         (path "/60aa52ba-7ce7-4ce8-b294-2b47b8740a05/e3d003d9-3702-47a9-9630-ba886331ecbf"
-          (reference "#PWR0140") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1894,7 +2005,7 @@
   (symbol (lib_id "power:+3.3V") (at 227.33 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bfc538b7-3cd3-450b-b353-dc95dc8b3b2a)
-    (property "Reference" "#PWR029" (at 227.33 135.89 0)
+    (property "Reference" "#PWR058" (at 227.33 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 227.33 127 0)
@@ -1910,12 +2021,12 @@
     (instances
       (project "RevA_Mecanismos"
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/a0534dee-4bf0-4ee7-89a4-28a5c95a5477"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR058") (unit 1)
         )
       )
       (project "IO_module"
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/e4c969ea-19dc-43d6-ab23-93022e90983a"
-          (reference "#PWR0173") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1924,7 +2035,7 @@
   (symbol (lib_id "Device:LED_Small") (at 220.98 67.31 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c0b8ac01-2a31-4cbc-a648-e3f627335bfd)
-    (property "Reference" "D15" (at 220.9165 62.5942 0)
+    (property "Reference" "D9" (at 220.9165 62.5942 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED_Small" (at 220.9165 65.1311 0)
@@ -1941,12 +2052,37 @@
     (instances
       (project "RevA_Mecanismos"
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/a0534dee-4bf0-4ee7-89a4-28a5c95a5477"
-          (reference "D15") (unit 1)
+          (reference "D9") (unit 1)
         )
       )
       (project "IO_module"
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/e4c969ea-19dc-43d6-ab23-93022e90983a"
-          (reference "D9") (unit 1)
+          (reference "D?") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+12V") (at 209.55 132.08 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d3a6eb4b-4abf-4eb1-b2bc-1da86880b71c)
+    (property "Reference" "#PWR054" (at 209.55 135.89 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+12V" (at 209.55 127 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 209.55 132.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 209.55 132.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d6c1332a-b00a-4956-9b2f-bef65407f1be))
+    (instances
+      (project "RevA_Mecanismos"
+        (path "/3a16a434-10b7-49a8-988b-273362cb395e/a0534dee-4bf0-4ee7-89a4-28a5c95a5477"
+          (reference "#PWR054") (unit 1)
         )
       )
     )
@@ -1955,7 +2091,7 @@
   (symbol (lib_id "power:GND") (at 240.03 67.31 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d7bdbc2f-1c4b-46e3-9b3f-dc49bd63aa16)
-    (property "Reference" "#PWR061" (at 246.38 67.31 0)
+    (property "Reference" "#PWR064" (at 246.38 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 243.84 67.31 90)
@@ -1971,12 +2107,12 @@
     (instances
       (project "RevA_Mecanismos"
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/a0534dee-4bf0-4ee7-89a4-28a5c95a5477"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR064") (unit 1)
         )
       )
       (project "IO_module"
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/e4c969ea-19dc-43d6-ab23-93022e90983a"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1985,7 +2121,7 @@
   (symbol (lib_id "power:GND") (at 240.03 85.09 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d8c4f0fb-f9f3-4ee7-af5d-df5eb1745fb0)
-    (property "Reference" "#PWR063" (at 246.38 85.09 0)
+    (property "Reference" "#PWR066" (at 246.38 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 243.84 85.09 90)
@@ -2001,12 +2137,12 @@
     (instances
       (project "RevA_Mecanismos"
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/a0534dee-4bf0-4ee7-89a4-28a5c95a5477"
-          (reference "#PWR063") (unit 1)
+          (reference "#PWR066") (unit 1)
         )
       )
       (project "IO_module"
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/e4c969ea-19dc-43d6-ab23-93022e90983a"
-          (reference "#PWR052") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -2015,7 +2151,7 @@
   (symbol (lib_id "Connector:TestPoint_2Pole") (at 227.33 139.7 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d8eb9c64-8c9b-4e4e-b991-c7fc13cebcbd)
-    (property "Reference" "TP1" (at 226.06 139.7 90)
+    (property "Reference" "TP3" (at 226.06 139.7 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint_2Pole" (at 224.79 140.97 90)
@@ -2032,12 +2168,12 @@
     (instances
       (project "RevA_Mecanismos"
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/a0534dee-4bf0-4ee7-89a4-28a5c95a5477"
-          (reference "TP1") (unit 1)
+          (reference "TP3") (unit 1)
         )
       )
       (project "IO_module"
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/e4c969ea-19dc-43d6-ab23-93022e90983a"
-          (reference "TP3") (unit 1)
+          (reference "TP?") (unit 1)
         )
       )
     )
@@ -2046,7 +2182,7 @@
   (symbol (lib_id "power:GND") (at 46.99 123.19 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dffbca52-29a8-49eb-80fa-59d9bbd1ea4e)
-    (property "Reference" "#PWR065" (at 53.34 123.19 0)
+    (property "Reference" "#PWR051" (at 53.34 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 50.1651 123.669 90)
@@ -2062,12 +2198,12 @@
     (instances
       (project "RevA_Mecanismos"
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/a0534dee-4bf0-4ee7-89a4-28a5c95a5477"
-          (reference "#PWR065") (unit 1)
+          (reference "#PWR051") (unit 1)
         )
       )
       (project "vanttec-stm-revb-pcb"
         (path "/ba4b9df0-26df-428a-b87a-cb6a6b17587e/3689f047-307f-48e1-8548-99c912f50634"
-          (reference "#PWR080") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -2076,7 +2212,7 @@
   (symbol (lib_id "Device:LED_Small") (at 220.98 58.42 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e26a2ec7-d54c-4131-beb5-4d5254f687b6)
-    (property "Reference" "D14" (at 220.9165 53.7042 0)
+    (property "Reference" "D8" (at 220.9165 53.7042 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED_Small" (at 220.9165 56.2411 0)
@@ -2093,12 +2229,12 @@
     (instances
       (project "RevA_Mecanismos"
         (path "/3a16a434-10b7-49a8-988b-273362cb395e/a0534dee-4bf0-4ee7-89a4-28a5c95a5477"
-          (reference "D14") (unit 1)
+          (reference "D8") (unit 1)
         )
       )
       (project "IO_module"
         (path "/6afa037b-8727-4bf3-bca2-b74b900c310e/e4c969ea-19dc-43d6-ab23-93022e90983a"
-          (reference "D8") (unit 1)
+          (reference "D?") (unit 1)
         )
       )
     )
