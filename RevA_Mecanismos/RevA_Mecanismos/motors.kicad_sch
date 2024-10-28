@@ -5823,7 +5823,7 @@
     (property "Value" "SS34" (at 83.82 140.97 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "SS34:DIOM7959X265N" (at 91.44 139.7 0)
+    (property "Footprint" "SS34:SS34" (at 91.44 139.7 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 91.44 139.7 0)
