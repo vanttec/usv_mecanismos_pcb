@@ -705,7 +705,7 @@
     (property "Value" "Conn_01x02_Pin" (at 40.64 104.14 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "36-3557-2-ND:CONN_3557-2_KEY" (at 41.91 101.6 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 41.91 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 41.91 101.6 0)

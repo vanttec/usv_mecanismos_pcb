@@ -87,11 +87,11 @@
       (plotinvisibletext false)
       (sketchpadsonfab false)
       (subtractmaskfromsilk false)
-      (outputformat 1)
+      (outputformat 4)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "")
+      (outputdirectory "../../")
     )
   )
 
@@ -426,7 +426,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e6f3fc85-a182-4a7d-8586-e56ac809f73c)
     )
-    (fp_text value "R" (at 0 1.43 90) (layer "F.Fab") hide
+    (fp_text value "33" (at 0 1.43 90) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6ee215d5-f997-4ec2-aad6-fdb2a944306f)
     )
@@ -8566,7 +8566,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp df1ead22-59b1-47d2-ad22-160b630ffb94)
     )
-    (fp_text value "Conn_01x02_Socket" (at 0 4.87) (layer "F.Fab") hide
+    (fp_text value "Conn_01x02_Pin" (at 0 4.87) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ecfcd09e-3fa6-4521-9a0d-bd3bd15a7559)
     )
@@ -8940,9 +8940,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp aed9b934-1781-4611-bf9b-dd2fe9066cd3))
     (fp_line (start 3.6775 2.56) (end -3.6775 2.56)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp f6785a77-493f-4ec5-9109-dcbc405c895b))
-    (pad "1" smd roundrect (at -3.3875 0 90) (size 1.925 5.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.12987)
+    (pad "1" smd roundrect (at -3.3875 0 90) (size 1.925 5.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1298701299)
       (net 68 "Net-(BT1-+)") (pintype "passive") (tstamp 85bb1180-6d71-485b-a2f2-9abd33055cf1))
-    (pad "2" smd roundrect (at 3.3875 0 90) (size 1.925 5.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.12987)
+    (pad "2" smd roundrect (at 3.3875 0 90) (size 1.925 5.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1298701299)
       (net 1 "BATT_CONN") (pintype "passive") (tstamp 0b2597c6-e9ed-4251-908e-cdc572a219a3))
   )
 

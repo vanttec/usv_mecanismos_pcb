@@ -1,0 +1,16 @@
+.IRF9540NSTRLPBF :1 ;HEXFET P-Ch MOSFET 23A 100V D2PAK
+IRF2804STRLPBF
+*STM Q
+*NGS
+*PLB 1="G" 2="D" 3="S"
+*MXP 3
+*DFN IRF9540NSTRLPBF
+~!Mouser Part Number (942-IRF9540NSTRLPBF)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IRF9540NSTRLPBF?qs=9%252BKlkBgLFf05M8Ke2p25WA%3D%3D)
+~!Manufacturer_Name (Infineon)
+~!Manufacturer_Part_Number (IRF9540NSTRLPBF)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/IRF9540NSTRLPBF.pdf)
+~!Height (4.83mm)
+~!3D_Model (IRF9540NSTRLPBF)
+IRF9540NSTRLPBF
+1.1!U 2.1!U 3.1!U 

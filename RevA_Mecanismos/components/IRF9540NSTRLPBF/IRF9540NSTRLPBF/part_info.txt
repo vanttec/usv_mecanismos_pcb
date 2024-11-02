@@ -1,0 +1,9 @@
+Manufacturer=Infineon
+PartNumber=IRF9540NSTRLPBF
+PartCategory=MOSFET (P-Channel)
+PackageCategory=Other
+PinCount=3
+Version=2.3
+Released=2018-10-25 21:43:22
+Downloaded=2024-11-02 18:53:27
+3D=Y

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'IRF9540NSTRLPBF'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Infineon", "IRF9540NSTRLPBF" (!) = "", "IRF2804STRLPBF", "Other", "942-IRF9540NSTRLPBF", "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IRF9540NSTRLPBF?qs=9%252BKlkBgLFf05M8Ke2p25WA%3D%3D", "HEXFET P-Ch MOSFET 23A 100V D2PAK", "https://componentsearchengine.com/Datasheets/1/IRF9540NSTRLPBF.pdf", "4.83 mm"
+END_PART
+
+END.
